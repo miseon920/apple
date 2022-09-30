@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
-import { Ev, Stit } from "../data/data";
 
-const Event = () => {
+const Event = ({ Stit, Ev }) => {
   const num = 0;
   return (
     <section className="event inner">

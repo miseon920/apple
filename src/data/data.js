@@ -55,21 +55,17 @@ const product = [
     id: 1,
     name: "스타라이트 알루미늄 케이스, 그리고 스포츠 루프",
     price: 599000,
-
   },
   {
     id: 2,
     name: "실버 알루미늄 케이스, 그리고 솔로 루프",
     price: 599000,
-
   },
   {
     id: 3,
     name: "골드 스테인리스 스틸 케이스, 그리고 가죽 링크",
     price: 1069000,
-
   },
-
 ];
 
 export { Ev, Stit, navlink, product };

@@ -284,8 +284,32 @@ section:not(.Mainvisual) {
   }
 
   &.store {
+    position: relative;
+    background: common.$backColor;
     .txt {
-      padding:20px 0 0;
+      padding: 20px;
+    }
+    .slideNum {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, 50%);
+      max-width: 1400px;
+      width: 100%;
+      li:first-child {
+        float: left;
+      }
+      li:last-child {
+        float: right;
+      }
+      i {
+        font-size: 20px;
+        color: #fff;
+        background: common.$mainColor;
+        padding: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+      }
     }
   }
 }
