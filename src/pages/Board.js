@@ -9,6 +9,9 @@ function Board({ Stit }) {
         <p>{Stit[num].des}</p>
       </div>
       <div className="content inner">
+        <div className="bcategory">
+          <ul></ul>
+        </div>
         <ul></ul>
       </div>
     </section>
