@@ -6,6 +6,7 @@ import Sub02 from "../pages/Sub02";
 import Sub03 from "../pages/Sub03";
 import Sub04 from "../pages/Sub04";
 import Sub05 from "../pages/Sub05";
+import Products from "../component/products";
 
 const Router = () => {
   return (
@@ -16,6 +17,7 @@ const Router = () => {
       <Route path="/sub03" element={<Sub03 />} />
       <Route path="/sub04" element={<Sub04 />} />
       <Route path="/sub05" element={<Sub05 />} />
+      <Route path="/products" element={<Products />} />
       {/* 페이지오류 : 404  */}
       <Route path="/*" element={<NotFound />} />
     </Routes>

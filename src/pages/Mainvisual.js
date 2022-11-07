@@ -33,7 +33,7 @@ const Mainvisual = () => {
         loop={true}
         onSlideChange={(swiper) => SetNum(swiper.realIndex)}
         loopedSlides={1}
-        onSwiper={(swiper) => console.log(swiper)}
+        //onSwiper={(swiper) => console.log(swiper)}
         ref={MS}
       >
         {Slide.map((slide, idx) => (
